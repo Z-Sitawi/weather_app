@@ -1,18 +1,35 @@
-:root {
+#root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  height: 100vh;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
 }
 
-body {
-  margin: 0;
+.app{
+  height: 101vh !important;
+  margin: 0px !important;
+}
+
+.morning {
+  background: linear-gradient(to bottom, #d4faff, #00b7ff, #00b7ff);
+}
+
+.afternoon {
+  background: linear-gradient(to bottom, #51bdfb, rgb(76, 102, 250));
+}
+
+.night {
+  background: linear-gradient(to bottom, #06121bf9, #1c0367);
+  color: white !important;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.151) !important; 
+}
+
+* {
+  text-wrap: nowrap !important;
 }
